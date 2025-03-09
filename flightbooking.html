@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flight Booking - Abood Airlines</title>
+        <link rel="stylesheet" href="format.css">
+    </head>
+    <body>
+        <header>
+            <h1>AA - Abood Airlines</h1>
+            <div class="logocontainer">
+                <img src="AA _Logo.png" alt="Abood Airlines Logo" class="logo">
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="AA.html#Airplanes">About Our Airplanes</a></li>
+                <li><a href="AA.html#Schedule">Flight Schedule</a></li>
+                <li><a href="AA.html#Flights">Available Flights</a></li>
+                <li><a href="AA.html#Map">Airport Map</a></li>
+                <li><a href="AA.html#Shopping">Food & Shopping Services</a></li>
+                <li><a href="AA.html#Parking">Parking Services</a></li>
+                <li><a href="AA.html#Weather">Weather Info</a></li>
+                <li><a href="flightbooking.html">Book a Flight With Us</a></li>
+                <li><a href="AA.html#Contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <section id="schedule">
+            <h2>Flight Schedule For </h2>
+            <h3>ALL FIRST CLASS SEATS ARE 220% MORE THAN ECONOMY SEATS</h3>
+                <table id="FlightTable" border="1" align="center">
+                    <thead>
+                      <tr>
+                        <th>Flight Number</th>
+                        <th>Departure Time</th>
+                        <th>Arrival Time</th>
+                        <th>Duration (hours)</th>
+                        <th>Destination</th>
+                        <th>Price</th>
+                        <th>Seating</th>
+                        <th>Booking</th>
+                      </tr>
+                    </thead>
+                    <tbody id="FlightTableBody">
+                    </tbody>
+                  </table>
+        </section>
+        <section id="myBookings">
+            <h2>Your Bookings</h2>
+            <ul id="bookingList">
+                <!-- Booked flights will appear here -->
+            </ul>
+        </section>
+        <script src="FlightBooking.js"></script>        
+    </body>
+</html>
